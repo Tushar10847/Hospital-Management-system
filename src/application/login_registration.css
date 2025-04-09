@@ -1,0 +1,140 @@
+/* Main Background Style */
+.login-register-root {
+    -fx-background-image: url('/application/resources/images/hospital_bg.jpg');
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+/* Form Container */
+.login-register-container {
+    -fx-background-color: rgba(255, 255, 255, 0.95);
+    -fx-background-radius: 20;
+    -fx-padding: 40px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 15, 0, 0, 0);
+    -fx-border-color: rgba(76, 175, 80, 0.3);
+    -fx-border-width: 1px;
+    -fx-border-radius: 20;
+    -fx-min-width: 400px;
+    -fx-max-width: 450px;
+}
+
+/* Header Section */
+.login-register-header {
+    -fx-alignment: center;
+    -fx-spacing: 15;
+    -fx-padding: 0 0 30px 0;
+}
+
+.login-register-logo {
+    -fx-font-size: 36px;
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+}
+
+.login-register-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.login-register-subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #7f8c8d;
+}
+
+/* Form Elements */
+.login-register-form {
+    -fx-spacing: 20;
+    -fx-alignment: center;
+}
+
+.login-register-field-container {
+    -fx-spacing: 8;
+}
+
+.login-register-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+    -fx-font-weight: bold;
+}
+
+.login-register-field {
+    -fx-background-color: #f8f9fa;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #e9ecef;
+    -fx-border-width: 1px;
+    -fx-padding: 12px;
+    -fx-font-size: 14px;
+    -fx-min-width: 300px;
+    -fx-pref-height: 40px;
+}
+
+.login-register-field:focused {
+    -fx-border-color: #4CAF50;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(76, 175, 80, 0.2), 5, 0, 0, 2);
+}
+
+/* Buttons */
+.login-register-button-container {
+    -fx-spacing: 15;
+    -fx-alignment: center;
+}
+
+.login-register-button {
+    -fx-background-color: linear-gradient(to right, #4CAF50, #2E7D32);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 12px 35px;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 0, 2);
+}
+
+.login-register-button:hover {
+    -fx-background-color: linear-gradient(to right, #43A047, #1B5E20);
+}
+
+.login-register-link {
+    -fx-text-fill: #4CAF50;
+    -fx-font-size: 14px;
+    -fx-underline: true;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+}
+
+.login-register-link:hover {
+    -fx-text-fill: #388E3C;
+}
+
+/* Combo Box */
+.login-register-combo {
+    -fx-background-color: #f8f9fa;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #e9ecef;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-min-width: 300px;
+    -fx-pref-height: 40px;
+}
+
+.login-register-combo .arrow-button {
+    -fx-background-color: #4CAF50;
+    -fx-background-radius: 0 8 8 0;
+}
+
+.login-register-combo .arrow {
+    -fx-background-color: white;
+}
+
+/* Error Message */
+.login-register-error {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 13px;
+    -fx-alignment: center;
+}
